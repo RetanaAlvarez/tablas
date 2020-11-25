@@ -1,4 +1,4 @@
-// tabla de alumnos 
+---tabla de alumnos 
 CREATE TABLE alumnos(
 num_control varchar(13) NOT NULL PRIMARY KEY,
 id_persona int,
@@ -14,5 +14,5 @@ clave_materia int,
 CONSTRAINT materia_unidades FOREIGN KEY(clave_materia) REFERENCES materias(clave_materia)
 ON DELETE CASCADE
 );
-// agregar sus incersiones de codigo de la tabla alumno
-// agregar sus increciones de codigo de la tabla unidades
+--agregar sus incersiones de codigo de la tabla alumno
+--agregar sus increciones de codigo de la tabla unidades
