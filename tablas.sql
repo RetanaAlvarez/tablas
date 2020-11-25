@@ -15,4 +15,5 @@ CONSTRAINT materia_unidades FOREIGN KEY(clave_materia) REFERENCES materias(clave
 ON DELETE CASCADE
 );
 --agregar sus incersiones de codigo de la tabla alumno
+
 --agregar sus increciones de codigo de la tabla unidades
