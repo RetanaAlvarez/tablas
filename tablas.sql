@@ -17,15 +17,15 @@ ON DELETE CASCADE
 --agregar sus incersiones de codigo de la tabla alumno
 
 INSERT INTO alumnos VALUES ('2018150480052','----');
-INSERT INTO alumnos VALUES ('2018150480053','----');
-INSERT INTO alumnos VALUES ('2018150480054','----');
-INSERT INTO alumnos VALUES ('2018150480055','----');
-INSERT INTO alumnos VALUES ('2018150480056','----');
-INSERT INTO alumnos VALUES ('2018150480057','----');
-INSERT INTO alumnos VALUES ('2018150480058','----');
-INSERT INTO alumnos VALUES ('2018150480059','----');
-INSERT INTO alumnos VALUES ('2018150480060','----');
-INSERT INTO alumnos VALUES ('2018150480061','----');
+INSERT INTO alumnos VALUES ('2018150480052','----');
+INSERT INTO alumnos VALUES ('2018150480052','----');
+INSERT INTO alumnos VALUES ('2018150480052','----');
+INSERT INTO alumnos VALUES ('2018150480052','----');
+INSERT INTO alumnos VALUES ('2018150480052','----');
+INSERT INTO alumnos VALUES ('2018150480052','----');
+INSERT INTO alumnos VALUES ('2018150480052','----');
+INSERT INTO alumnos VALUES ('2018150480052','----');
+INSERT INTO alumnos VALUES ('2018150480052','----');
 
 INSERT INTO alumnos VALUES('2018150480195',pendiente);
 INSERT INTO alumnos VALUES('2018150480034',pendiente);
@@ -37,6 +37,18 @@ INSERT INTO alumnos VALUES('2018150480164',pendiente);
 INSERT INTO alumnos VALUES('2018150480073',pendiente);
 INSERT INTO alumnos VALUES('2018150480724',pendiente);
 INSERT INTO alumnos VALUES('2018150480936',pendiente);
+
+INSERT INTO alumnos VALUES('2018150480959',pendiente);
+INSERT INTO alumnos VALUES('2018150480950',pendiente);
+INSERT INTO alumnos VALUES('2018150480900',pendiente);
+INSERT INTO alumnos VALUES('2018150480926',pendiente);
+INSERT INTO alumnos VALUES('2018150480950',pendiente);
+INSERT INTO alumnos VALUES('2018150480960',pendiente);
+INSERT INTO alumnos VALUES('2018150480925',pendiente);
+INSERT INTO alumnos VALUES('2018150480911',pendiente);
+INSERT INTO alumnos VALUES('2018150480917',pendiente);
+INSERT INTO alumnos VALUES('2018150480938',pendiente);
+
 --agregar sus increciones de codigo de la tabla unidades
 
 INSERT INTO unidades VALUES ('clavemateria-1',1,'Arquitecturas de cómputo',----);
@@ -60,3 +72,14 @@ INSERT INTO unidades VALUES('clavemateria-1',1,'Introduccion a la Graficacion Po
 INSERT INTO unidades VALUES('clavemateria-2',2,'Graficacion 2D',pendeinte);
 INSERT INTO unidades VALUES('clavemateria-3',3,'Graficacion 3D',pendiente);
 INSERT INTO unidades VALUES('clavemateria-4',4,'Relleno, Iluminacion y Sombreado',pendeinte);
+                             
+INSERT INTO unidades VALUES('clavemateria-1',1,'Sistema de comunicación',--- );
+INSERT INTO unidades VALUES('clavemateria-2',2,'Medios de transmisión ',---);
+INSERT INTO unidades VALUES('clavemateria-3',3,'Modulación',---);
+INSERT INTO unidades VALUES('clavemateria-4',4,'Técnicas de conmutación y multiplexación',---);
+INSERT INTO unidades VALUES('clavemateria-5',5,'Modelos y dispositivos de comunicació',---);
+INSERT INTO unidades VALUES('clavemateria-1',1,'El SGBD y el Lenguaje de Definición de Datos',----);
+INSERT INTO unidades VALUES('clavemateria-2',2,'Lenguaje de Manipulación de Datos',---);
+INSERT INTO unidades VALUES('clavemateria-3',3,'Administración de base de datos ',----);
+INSERT INTO unidades VALUES('clavemateria-4',4,'SQL Procedural ',---);
+INSERT INTO unidades VALUES('clavemateria-5',5,'Tecnologías de conectividad de base de datos ',----);
